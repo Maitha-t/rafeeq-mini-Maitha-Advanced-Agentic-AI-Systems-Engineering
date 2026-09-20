@@ -1,2 +1,3 @@
 # rafeeq-mini-Maitha
-SDAIA Academy project by Course Instructor: Meaad Al-Marri
+SDAIA Academy 
+Advanced Agentic AI Systems Engineering by Course Instructor: Meaad Al-Marri
