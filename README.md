@@ -1,3 +1,3 @@
 # rafeeq-mini-Maitha
-# # SDAIA Academy 
+# SDAIA Academy 
 Advanced Agentic AI Systems Engineering by Course Instructor: 
