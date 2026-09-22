@@ -1,5 +1,5 @@
 # Rafeeq Mini — Advanced Agentic AI Systems Engineering
- 
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Maitha-t/rafeeq-mini-Maitha-Advanced-Agentic-AI-Systems-Engineering/blob/main/Rafeeq_mini.ipynb)
 > A capstone project completed as part of the **Rafeeq Mini** program, delivered by **SDAIA Academy** — a 3-day, on-site, 18-hour intensive training program.
 
 ## Project scenario · سيناريو المشروع
