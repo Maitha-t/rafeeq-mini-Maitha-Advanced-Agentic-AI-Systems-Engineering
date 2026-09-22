@@ -22,7 +22,6 @@ flowchart TB
 
 ## Instructor · المدربة
 
-**Meaad Al-Marri · ميعاد المري**(https://github.com/almiyead-rgb)
+all thanks to greates Trainer: [**Meaad Al-Marri**](https://github.com/almiyead-rgb)
 
-[SDAIA Academy on GitHub](https://github.com/SDAIAAcademy) is provided only as an external reference. This repository does not use an official logo or claim institutional endorsement, approval, or ownership.
-
+Training-program reference:[SDAIA Academy on GitHub](https://github.com/SDAIAAcademy)
