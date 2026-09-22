@@ -20,7 +20,8 @@ flowchart TB
 .
 
 
-## Instructor · المدربة
+## Training-program attribution
+This project was completed for the Rafeeq mini, delivered by SDAIA Academy three-day, on-site, 18-hour program. Session: September 2026.
 
 all thanks to greates Trainer: [**Meaad Al-Marri**](https://github.com/almiyead-rgb)
 
