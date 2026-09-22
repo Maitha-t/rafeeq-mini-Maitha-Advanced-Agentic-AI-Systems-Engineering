@@ -1,0 +1,50 @@
+name: Learner release quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - "build/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: learner-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate offline learner release
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      LLM_MODE: stub
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Select Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run public tests
+        run: python -m unittest discover -s tests/public -p "test_*.py" -v
+
+      - name: Validate notebook contract
+        run: python scripts/validate_notebook.py
+
+      - name: Build deterministic learner evidence
+        run: |
+          python scripts/doctor.py
+          python scripts/run_gate.py --day 1
+          python scripts/run_gate.py --day 2
+          python scripts/run_gate.py --day 3
+          python scripts/run_assessment.py
+
+      - name: Run release checks
+        run: python scripts/validate_release.py
