@@ -1,0 +1,34 @@
+{
+  "day": 1,
+  "llm_mode": "stub",
+  "public_tests_passed": true,
+  "learner_checks_complete": true,
+  "all_passed": true,
+  "learner_checks": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true
+  },
+  "tests": [
+    {
+      "test": "test_state_contract",
+      "passed": true,
+      "latency_ms": 174.11,
+      "tail": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "test": "test_tool_scope",
+      "passed": true,
+      "latency_ms": 234.99,
+      "tail": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "test": "test_mcp_smoke",
+      "passed": true,
+      "latency_ms": 554.43,
+      "tail": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.385s\n\nOK\n"
+    }
+  ]
+}
