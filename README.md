@@ -20,6 +20,13 @@ flowchart TB
     F --> H["Redacted trace + evidence · أثر منقح وأدلة"]
 ```
 .
+## Public Release Scorecard · بطاقة تقييم الإصدار العام
+ 
+![Rafeeq Mini Public Release Scorecard](reports/monitoring_dashboard.png)
+ 
+All three release gates — **Functional**, **Security**, and **Trace** — passed at a 100% rate.
+ 
+اجتازت جميع بوابات الإصدار الثلاث — **الوظيفية**، **الأمنية**، و**التتبع** — بنسبة نجاح 100%.
 ## How to Run
  
 1. Clone the repository:
