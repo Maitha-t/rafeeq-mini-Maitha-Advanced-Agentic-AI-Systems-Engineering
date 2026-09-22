@@ -1,4 +1,6 @@
-
+# Rafeeq Mini — Advanced Agentic AI Systems Engineering
+ 
+> A capstone project completed as part of the **Rafeeq Mini** program, delivered by **SDAIA Academy** — a 3-day, on-site, 18-hour intensive training program.
 
 ## Project scenario · سيناريو المشروع
 
@@ -18,11 +20,20 @@ flowchart TB
     F --> H["Redacted trace + evidence · أثر منقح وأدلة"]
 ```
 .
+## How to Run
+ 
+1. Clone the repository:
+```bash
+   git clone https://github.com/Maitha-t/rafeeq-mini-Maitha-Advanced-Agentic-AI-Systems-Engineering.git
+```
+2. Open `Rafeeq-mini.ipynb` in Google Colab or Jupyter Notebook.
+3. Run all cells sequentially to reproduce the full workflow, including the final security review and export steps.
+
 
 
 ## Training-program attribution
-This project was completed for the Rafeeq mini, delivered by SDAIA Academy three-day, on-site, 18-hour program. Session: September 2026.
-
-all thanks to greates Trainer: [**Meaad Al-Marri**](https://github.com/almiyead-rgb)
-
-Training-program reference:[SDAIA Academy on GitHub](https://github.com/SDAIAAcademy)
+This project was completed for the **Rafeeq Mini**, delivered by **SDAIA Academy**, a three-day, on-site, 18-hour program. Session: September 2026.
+ 
+All thanks to the greatest trainer: [**Meaad Al-Marri**](https://github.com/almiyead-rgb)
+ 
+Training-program reference: [SDAIA Academy on GitHub](https://github.com/SDAIAAcademy)
